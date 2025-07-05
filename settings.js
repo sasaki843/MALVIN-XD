@@ -1,18 +1,39 @@
 
 const fs = require('fs');
-if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
+iiiif (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "[04/07 à 11:25 PM] Mme: *Hey there, MALVIN-XD User!* 👋🏻
+
+Thanks for using *MALVIN-XD* — your session has been successfully created!
+
+🔐 *Session ID:* Sent above  
+⚠️ *Keep it safe!* Do NOT share this ID with anyone.
+
+——————
+
+*✅ Stay Updated:*  
+Join our official WhatsApp Channel:  
+https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+
+*💻 Source Code:*  
+Fork & explore the project on GitHub:  
+https://github.com/XdKing2/MALVIN-XD
+
+——————
+
+> *© Powered by Malvin King*
+Stay cool and hack smart. ✌🏻
+[04/07 à 11:25 PM] Mme: malvin~YzMQBKzZ#SrL-EcFwiqj6PuuoMu0fB33X69bmYqDZZkzRp_f1wiQ",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
 // add bot name here for menu
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 LINK_WHITELIST: "youtube.com,github.com",
